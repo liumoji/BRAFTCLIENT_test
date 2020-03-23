@@ -1,0 +1,289 @@
+{
+  "version": "0.3.0",
+  "scope": "tree",
+  "id": "d8d3f20e-3099-4b4e-83c1-d57cd56af403",
+  "title": "pokemon",
+  "description": "宝可梦制回合规则",
+  "root": "4e9ac3b1-7a4e-4811-a692-52d0ba0290e7",
+  "properties": {
+    "roundTime": 10
+  },
+  "nodes": {
+    "4e9ac3b1-7a4e-4811-a692-52d0ba0290e7": {
+      "id": "4e9ac3b1-7a4e-4811-a692-52d0ba0290e7",
+      "name": "Priority",
+      "category": "composite",
+      "title": "turnAction",
+      "description": "回合动作, 玩家操作or结算",
+      "properties": {},
+      "display": {
+        "x": -336,
+        "y": 96
+      },
+      "children": [
+        "35e51836-9f63-4528-8086-b7dde865420f",
+        "24258a35-db14-4022-82ea-42a96293619e"
+      ]
+    },
+    "35e51836-9f63-4528-8086-b7dde865420f": {
+      "id": "35e51836-9f63-4528-8086-b7dde865420f",
+      "name": "Sequence",
+      "category": "composite",
+      "title": "行动",
+      "description": "A B两队各自行动",
+      "properties": {},
+      "display": {
+        "x": -132,
+        "y": -192
+      },
+      "children": [
+        "f987bc88-1acc-4991-9256-ece0c21521e2",
+        "e87a597a-9491-4291-8759-23a7381d19ad"
+      ]
+    },
+    "11ff9172-15aa-4cb9-8bfa-09f457a22108": {
+      "id": "11ff9172-15aa-4cb9-8bfa-09f457a22108",
+      "name": "Sequence",
+      "category": "composite",
+      "title": "A队行动",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 288,
+        "y": -72
+      },
+      "children": [
+        "76eb7c5c-ecaf-4ee1-8a92-6ef07ea6aa58",
+        "208b3e6e-e1ed-4641-865a-78f1fe549512",
+        "2c73caa4-4cd0-4959-a7bd-c2f7ff5f82f0"
+      ]
+    },
+    "ec09ce42-409f-4310-954b-1efd6fb60ec6": {
+      "id": "ec09ce42-409f-4310-954b-1efd6fb60ec6",
+      "name": "Sequence",
+      "category": "composite",
+      "title": "B队行动",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 288,
+        "y": 192
+      },
+      "children": [
+        "5510a023-0959-49df-8d4d-48466daddec2",
+        "4c713be8-a62d-4511-abd5-f62d4764efb7",
+        "71a2130f-6722-4cab-a830-f56e89e91eca"
+      ]
+    },
+    "76eb7c5c-ecaf-4ee1-8a92-6ef07ea6aa58": {
+      "id": "76eb7c5c-ecaf-4ee1-8a92-6ef07ea6aa58",
+      "name": "SpriteMove",
+      "category": "action",
+      "title": "精灵行动A1",
+      "description": "精灵行动A1",
+      "properties": {
+        "idx": "A1"
+      },
+      "display": {
+        "x": 492,
+        "y": -156
+      }
+    },
+    "208b3e6e-e1ed-4641-865a-78f1fe549512": {
+      "id": "208b3e6e-e1ed-4641-865a-78f1fe549512",
+      "name": "SpriteMove",
+      "category": "action",
+      "title": "精灵行动A2",
+      "description": "精灵行动A2",
+      "properties": {
+        "idx": "A2"
+      },
+      "display": {
+        "x": 492,
+        "y": -72
+      }
+    },
+    "2c73caa4-4cd0-4959-a7bd-c2f7ff5f82f0": {
+      "id": "2c73caa4-4cd0-4959-a7bd-c2f7ff5f82f0",
+      "name": "SpriteMove",
+      "category": "action",
+      "title": "精灵行动A3",
+      "description": "精灵行动",
+      "properties": {
+        "idx": "A3"
+      },
+      "display": {
+        "x": 492,
+        "y": 12
+      }
+    },
+    "5510a023-0959-49df-8d4d-48466daddec2": {
+      "id": "5510a023-0959-49df-8d4d-48466daddec2",
+      "name": "SpriteMove",
+      "category": "action",
+      "title": "精灵行动B1",
+      "description": "精灵行动",
+      "properties": {
+        "idx": "B1"
+      },
+      "display": {
+        "x": 492,
+        "y": 108
+      }
+    },
+    "4c713be8-a62d-4511-abd5-f62d4764efb7": {
+      "id": "4c713be8-a62d-4511-abd5-f62d4764efb7",
+      "name": "SpriteMove",
+      "category": "action",
+      "title": "精灵行动B2",
+      "description": "精灵行动",
+      "properties": {
+        "idx": "B2"
+      },
+      "display": {
+        "x": 492,
+        "y": 192
+      }
+    },
+    "71a2130f-6722-4cab-a830-f56e89e91eca": {
+      "id": "71a2130f-6722-4cab-a830-f56e89e91eca",
+      "name": "SpriteMove",
+      "category": "action",
+      "title": "精灵行动B3",
+      "description": "精灵行动",
+      "properties": {
+        "idx": "B3"
+      },
+      "display": {
+        "x": 492,
+        "y": 276
+      }
+    },
+    "24258a35-db14-4022-82ea-42a96293619e": {
+      "id": "24258a35-db14-4022-82ea-42a96293619e",
+      "name": "BattleResult",
+      "category": "action",
+      "title": "回合结算",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": -132,
+        "y": 372
+      }
+    },
+    "d61f53e0-3b5c-4406-bba7-d4092b7d5221": {
+      "id": "d61f53e0-3b5c-4406-bba7-d4092b7d5221",
+      "name": "RoundOver",
+      "category": "condition",
+      "title": "回合结束",
+      "description": "回合已经结束",
+      "properties": {},
+      "display": {
+        "x": 288,
+        "y": -336
+      }
+    },
+    "f987bc88-1acc-4991-9256-ece0c21521e2": {
+      "id": "f987bc88-1acc-4991-9256-ece0c21521e2",
+      "name": "Inverter",
+      "category": "decorator",
+      "title": "Inverter",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 84,
+        "y": -336
+      },
+      "child": "d61f53e0-3b5c-4406-bba7-d4092b7d5221"
+    },
+    "1337f8f4-a3bd-4643-8913-be93772cc0ac": {
+      "id": "1337f8f4-a3bd-4643-8913-be93772cc0ac",
+      "name": "MaxTime",
+      "category": "decorator",
+      "title": "Max <maxTime>ms",
+      "description": "单回合时间",
+      "properties": {
+        "maxTime": 5000
+      },
+      "display": {
+        "x": 288,
+        "y": -252
+      },
+      "child": "b7be0b21-c7d5-44a6-bf26-c063898f66f5"
+    },
+    "b7be0b21-c7d5-44a6-bf26-c063898f66f5": {
+      "id": "b7be0b21-c7d5-44a6-bf26-c063898f66f5",
+      "name": "Runner",
+      "category": "action",
+      "title": "Runner",
+      "description": "",
+      "properties": {},
+      "display": {
+        "x": 492,
+        "y": -252
+      }
+    },
+    "e87a597a-9491-4291-8759-23a7381d19ad": {
+      "id": "e87a597a-9491-4291-8759-23a7381d19ad",
+      "name": "ParallelSequence",
+      "category": "composite",
+      "title": "并行节点",
+      "description": "并行子节点, 直到子节点返回FAILURE",
+      "properties": {},
+      "display": {
+        "x": 84,
+        "y": -48
+      },
+      "children": [
+        "1337f8f4-a3bd-4643-8913-be93772cc0ac",
+        "11ff9172-15aa-4cb9-8bfa-09f457a22108",
+        "ec09ce42-409f-4310-954b-1efd6fb60ec6"
+      ]
+    }
+  },
+  "display": {
+    "camera_x": 960,
+    "camera_y": 514,
+    "camera_z": 1,
+    "x": -540,
+    "y": 96
+  },
+  "custom_nodes": [
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "SpriteMove",
+      "category": "action",
+      "title": "精灵行动",
+      "description": "精灵行动",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "BattleResult",
+      "category": "action",
+      "title": "回合结算",
+      "description": null,
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "RoundOver",
+      "category": "condition",
+      "title": "回合结束",
+      "description": "回合已经结束",
+      "properties": {}
+    },
+    {
+      "version": "0.3.0",
+      "scope": "node",
+      "name": "ParallelSequence",
+      "category": "composite",
+      "title": "并行节点",
+      "description": "并行子节点, 直到子节点返回FAILURE",
+      "properties": {}
+    }
+  ]
+}

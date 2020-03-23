@@ -1,0 +1,74 @@
+syntax="proto2";
+import "./struct.proto";
+package battle;
+
+option cc_generic_services = true;
+
+message enterReq {
+      required int32 type = 1;      //对战类型
+      required string teamId = 2;//队伍唯一标识
+      required int32 uid = 3;  //我自己id
+      required int32 teamA = 4;//teamAuid
+      required int32 teamB = 5; //teamBuid
+      required int32 isAi = 6;//0 是 1 不是
+      required string teamName = 7;//"teamA" "teamB"
+      repeated battle_petBaseInfo petList = 8;    //自己的精灵列表
+      required string address = 9;
+      repeated int32 notifyList = 10;//玩家每次操作通知的uid集合
+      
+};
+
+message enterRes {
+      required int32 ret = 1; // 1 表示进入成功 2 失败
+      repeated petChange changeInfo = 7;
+};
+
+message opReq {
+      required int32 uid = 1; 
+      repeated opStruct opList = 2;
+}
+
+
+message opRes{
+      required int32 result = 1; // 1 进行中 2 你赢了 3 你输了 4 平局 5 对方逃跑了
+      repeated petChange changeInfo = 2;
+}
+
+
+message opStruct{
+      required int32 opType = 1;// 1 使用药 2 放技能 3 上精灵 4 上精灵加技能 5 自动
+      required int32 getTime = 2;//操作的精灵
+      optional int32 skillID = 3;//使用的技能
+      optional int32 itemId = 4;//使用道具id
+}
+
+message petChange{
+      required int32 uid  = 1; //拥有者id
+      required int32 getTime = 2;
+      required int32 hpChange = 3;
+      required skill_info skillPPchange = 4;
+      required buffer_info bufChange = 5;
+      required attAck attAcker = 6; //影响来源
+}
+
+message attAck{
+      required int32 uid = 1;
+      required int32 skillId = 2;
+      required int32 getTime = 3;
+      required int32 type = 4;
+}
+
+message quitReq{
+      required int32 uid  = 1;
+}
+
+message quitRes{
+      required int32 ret = 1;
+}
+
+
+service BattleService {
+      rpc enter(enterReq) returns (enterRes);
+      rpc op(opReq) returns (opRes);
+      rpc quit(quitReq) returns (quitRes);
+};

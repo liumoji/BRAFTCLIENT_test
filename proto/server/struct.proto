@@ -1,0 +1,32 @@
+syntax="proto2";
+
+message battle_petBaseInfo {
+      required int32 petId = 1;//精灵id
+      required int32 getTime = 2;//精灵获取时间
+	required int32 hp = 3;
+	required int32 atk = 4;
+	required int32 def = 5;
+	required int32 satk = 6;
+	required int32 sdef = 7;
+      required int32 speed = 8;
+      required int32 model = 9;
+      required int32 level = 10;
+	repeated skill_info skillList = 11;//技能列表
+      repeated int32 debut_effect = 12;//登场特效
+     
+};
+message skill_info{
+      required int32 skillId = 1;
+	required int32 pp = 2;
+}
+
+message pet_simple_info{
+      required int32 petId = 1;//精灵id
+      required int32 model = 2;
+      required int32 level = 3;
+}
+
+message buffer_info{
+      required int32 bufId = 1;//部分id
+      required int32 round = 2;//持续回合
+}

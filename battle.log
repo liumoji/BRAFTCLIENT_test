@@ -1,0 +1,177 @@
+[2020-03-16T10:33:28.252] [INFO] BTL - battle starting, node version : v12.14.0
+[2020-03-16T10:33:28.313] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:12089:0"}
+[2020-03-16T10:33:28.389] [ERROR] BTL - RpcClient::heartbeat err:Error: 13 INTERNAL: Failed to parse server response
+[2020-03-16T10:33:30.427] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T10:33:30.971] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:12089:0"}
+[2020-03-16T10:33:31.476] [ERROR] BTL - RpcClient::heartbeat err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T10:33:32.500] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:12089:0"}
+[2020-03-16T10:33:32.886] [ERROR] BTL - RpcClient::heartbeat err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T10:33:35.463] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T10:33:35.985] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:12088:0"}
+[2020-03-16T10:33:36.008] [ERROR] BTL - RpcClient::heartbeat err:Error: 13 INTERNAL: Failed to parse server response
+[2020-03-16T10:33:38.070] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T10:33:40.244] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T10:33:40.762] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:12088:0"}
+[2020-03-16T10:33:42.857] [ERROR] BTL - RpcClient::heartbeat err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T10:33:46.487] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T10:33:47.662] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T10:33:48.180] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:12090][E11]Unknown leader
+[2020-03-16T10:33:52.271] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T10:33:56.896] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T10:33:57.415] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:12090][E11]Unknown leader
+[2020-03-16T10:34:02.870] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T10:34:13.113] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T10:34:13.628] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:12090][E11]Unknown leader
+[2020-03-16T10:34:16.679] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T10:35:23.460] [INFO] BTL - battle starting, node version : v12.14.0
+[2020-03-16T10:35:24.512] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T10:35:26.048] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T10:35:26.593] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:12090][E11]Unknown leader
+[2020-03-16T10:35:27.191] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T10:35:28.974] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T10:35:29.480] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:12090][E11]Unknown leader
+[2020-03-16T10:35:33.240] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T10:35:35.814] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T10:35:36.324] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:12090][E11]Unknown leader
+[2020-03-16T10:35:39.937] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T10:35:41.666] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T10:35:42.189] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:12090][E11]Unknown leader
+[2020-03-16T10:35:51.980] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T10:36:09.703] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T10:36:10.229] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:12090][E11]Unknown leader
+[2020-03-16T10:49:28.174] [INFO] BTL - battle starting, node version : v12.14.0
+[2020-03-16T10:49:28.215] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:9089:0"}
+[2020-03-16T10:49:28.280] [ERROR] BTL - RpcClient::heartbeat err:Error: 13 INTERNAL: Failed to parse server response
+[2020-03-16T10:49:30.332] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T10:49:30.873] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:9089:0"}
+[2020-03-16T10:49:31.371] [ERROR] BTL - RpcClient::heartbeat err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T10:49:32.376] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:9089:0"}
+[2020-03-16T10:49:33.006] [ERROR] BTL - RpcClient::heartbeat err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T10:49:35.087] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T11:01:51.770] [INFO] BTL - battle starting, node version : v12.14.0
+[2020-03-16T11:01:51.798] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:9088:0"}
+[2020-03-16T11:01:51.824] [ERROR] BTL - RpcClient::heartbeat err:Error: 13 INTERNAL: Failed to parse server response
+[2020-03-16T11:01:52.858] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:9088:0"}
+[2020-03-16T11:01:53.900] [ERROR] BTL - RpcClient::heartbeat err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T11:01:54.945] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:9088:0"}
+[2020-03-16T11:01:54.949] [ERROR] BTL - RpcClient::heartbeat err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T11:01:56.674] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T11:01:57.198] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:9088:0"}
+[2020-03-16T11:01:58.768] [ERROR] BTL - RpcClient::heartbeat err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T11:01:59.788] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:9088:0"}
+[2020-03-16T11:02:02.678] [ERROR] BTL - RpcClient::heartbeat err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T11:02:09.188] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T11:02:09.708] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:9089:0"}
+[2020-03-16T11:02:09.729] [ERROR] BTL - RpcClient::heartbeat err:Error: 13 INTERNAL: Failed to parse server response
+[2020-03-16T11:02:10.745] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:9089:0"}
+[2020-03-16T11:04:38.772] [INFO] BTL - battle starting, node version : v12.14.0
+[2020-03-16T11:04:38.805] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:9090:0"}
+[2020-03-16T11:10:39.637] [INFO] BTL - battle starting, node version : v12.14.0
+[2020-03-16T11:10:39.670] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:9088:0"}
+[2020-03-16T11:11:05.119] [INFO] BTL - battle starting, node version : v12.14.0
+[2020-03-16T11:11:05.164] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:9088:0"}
+[2020-03-16T11:11:05.215] [ERROR] BTL - RpcClient::heartbeat err:Error: 13 INTERNAL: Failed to parse server response
+[2020-03-16T11:11:06.266] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:9088:0"}
+[2020-03-16T11:11:07.323] [ERROR] BTL - RpcClient::heartbeat err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T11:11:08.342] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:9088:0"}
+[2020-03-16T11:11:08.360] [ERROR] BTL - RpcClient::heartbeat err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T11:11:10.039] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T11:11:10.556] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:9088:0"}
+[2020-03-16T11:11:12.297] [ERROR] BTL - RpcClient::heartbeat err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T11:11:13.311] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:9090:0"}
+[2020-03-16T11:11:13.324] [ERROR] BTL - RpcClient::heartbeat err:Error: 13 INTERNAL: Failed to parse server response
+[2020-03-16T11:11:15.883] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T11:11:16.397] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:9090:0"}
+[2020-03-16T11:11:17.415] [ERROR] BTL - RpcClient::heartbeat err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T11:11:18.440] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T11:11:23.015] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T11:11:23.525] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:9089][E11]Unknown leader
+[2020-03-16T11:11:27.093] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T11:11:35.147] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T11:11:35.664] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:9089][E11]Unknown leader
+[2020-03-16T11:11:41.708] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T11:11:50.806] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T11:11:51.325] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:9089][E11]Unknown leader
+[2020-03-16T11:11:55.847] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T11:12:15.647] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T11:12:17.184] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T11:12:24.376] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T11:13:02.798] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T11:13:29.862] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T11:14:18.187] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:9090][E11]Unknown leader
+[2020-03-16T11:14:18.697] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:9088][E11]Unknown leader
+[2020-03-16T11:14:19.213] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:9089][E11]Unknown leader
+[2020-03-16T11:14:19.733] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:9090][E11]Unknown leader
+[2020-03-16T11:14:20.241] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:9088][E11]Unknown leader
+[2020-03-16T11:14:20.763] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:9089][E11]Unknown leader
+[2020-03-16T11:14:21.286] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:9090][E11]Unknown leader
+[2020-03-16T11:14:21.804] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:9088][E11]Unknown leader
+[2020-03-16T11:14:22.324] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:9089][E11]Unknown leader
+[2020-03-16T11:14:22.831] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:9090][E11]Unknown leader
+[2020-03-16T11:14:23.355] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:9090:0"}
+[2020-03-16T11:14:23.379] [ERROR] BTL - RpcClient::heartbeat err:Error: 13 INTERNAL: Failed to parse server response
+[2020-03-16T11:14:24.404] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:9090:0"}
+[2020-03-16T11:14:25.460] [ERROR] BTL - RpcClient::heartbeat err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T11:14:26.512] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T11:14:27.019] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:9090:0"}
+[2020-03-16T11:14:37.133] [INFO] BTL - battle starting, node version : v12.14.0
+[2020-03-16T11:14:37.183] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:9088:0"}
+[2020-03-16T11:14:37.239] [ERROR] BTL - RpcClient::heartbeat err:Error: 13 INTERNAL: Failed to parse server response
+[2020-03-16T11:14:38.270] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:9088:0"}
+[2020-03-16T11:14:39.320] [ERROR] BTL - RpcClient::heartbeat err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T11:14:41.364] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T11:14:42.269] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T11:14:42.786] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:9088:0"}
+[2020-03-16T11:14:44.532] [ERROR] BTL - RpcClient::heartbeat err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T11:14:46.436] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T11:17:51.809] [INFO] BTL - battle starting, node version : v12.14.0
+[2020-03-16T11:17:51.863] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:9090:0"}
+[2020-03-16T11:18:01.946] [ERROR] BTL - RpcClient::heartbeat err:Error: 13 INTERNAL: Failed to parse server response
+[2020-03-16T11:18:02.975] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:9090:0"}
+[2020-03-16T11:18:04.009] [ERROR] BTL - RpcClient::heartbeat err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T11:18:05.032] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T11:18:05.544] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:9090:0"}
+[2020-03-16T11:18:06.519] [ERROR] BTL - RpcClient::heartbeat err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T11:18:07.529] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:9090:0"}
+[2020-03-16T11:18:09.405] [ERROR] BTL - RpcClient::heartbeat err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T11:26:45.880] [INFO] BTL - battle starting, node version : v12.14.0
+[2020-03-16T11:26:45.929] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:9088:0"}
+[2020-03-16T11:26:56.022] [ERROR] BTL - RpcClient::heartbeat err:Error: 13 INTERNAL: Failed to parse server response
+[2020-03-16T11:26:57.045] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:9088:0"}
+[2020-03-16T11:26:58.073] [ERROR] BTL - RpcClient::heartbeat err:Error: 14 UNAVAILABLE: failed to connect to all addresses
+[2020-03-16T11:29:29.004] [INFO] BTL - battle starting, node version : v12.14.0
+[2020-03-16T11:29:29.047] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:9088][E11]Unknown leader
+[2020-03-16T11:29:29.586] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:9089:0"}
+[2020-03-16T11:29:39.629] [ERROR] BTL - RpcClient::heartbeat err:Error: 13 INTERNAL: Failed to parse server response
+[2020-03-16T11:29:40.675] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:9089:0"}
+[2020-03-16T11:57:52.580] [INFO] BTL - battle starting, node version : v12.14.0
+[2020-03-16T11:57:52.609] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:9088:0"}
+[2020-03-16T14:55:48.243] [INFO] BTL - battle starting, node version : v12.14.0
+[2020-03-16T14:55:48.269] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:9088][E11]Unknown leader
+[2020-03-16T14:55:48.792] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:9089][E11]Unknown leader
+[2020-03-16T14:55:49.332] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:9090][E11]Unknown leader
+[2020-03-16T14:55:49.860] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:9088][E11]Unknown leader
+[2020-03-16T14:55:50.384] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:9089][E11]Unknown leader
+[2020-03-16T14:55:50.905] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:9090][E11]Unknown leader
+[2020-03-16T14:55:51.419] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:9088][E11]Unknown leader
+[2020-03-16T14:55:51.941] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:9089][E11]Unknown leader
+[2020-03-16T14:55:52.461] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:9090][E11]Unknown leader
+[2020-03-16T14:55:52.976] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:9088][E11]Unknown leader
+[2020-03-16T14:55:53.494] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:9089][E11]Unknown leader
+[2020-03-16T14:55:54.021] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:9088:0"}
+[2020-03-16T14:56:57.999] [INFO] BTL - battle starting, node version : v12.14.0
+[2020-03-16T14:56:58.025] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:9088][E11]Unknown leader
+[2020-03-16T14:56:58.572] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:9089][E11]Unknown leader
+[2020-03-16T14:56:59.094] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:9090][E11]Unknown leader
+[2020-03-16T14:56:59.608] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:9088][E11]Unknown leader
+[2020-03-16T14:57:00.127] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:9089][E11]Unknown leader
+[2020-03-16T14:57:00.656] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:9090:0"}
+[2020-03-16T15:00:21.641] [INFO] BTL - battle starting, node version : v12.14.0
+[2020-03-16T15:00:21.683] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:9088][E11]Unknown leader
+[2020-03-16T15:00:22.232] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:9089][E11]Unknown leader
+[2020-03-16T15:00:22.775] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:9090][E11]Unknown leader
+[2020-03-16T15:00:23.301] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:9088][E11]Unknown leader
+[2020-03-16T15:00:23.820] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:9089][E11]Unknown leader
+[2020-03-16T15:00:24.342] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:9090][E11]Unknown leader
+[2020-03-16T15:00:24.863] [ERROR] BTL - RpcClient::getRaftLeader err:Error: 13 INTERNAL: [127.0.1.1:9088][E11]Unknown leader
+[2020-03-16T15:00:25.391] [INFO] BTL - RpcClient::getRaftLeader ret:{"leader_id":"10.1.1.248:9089:0"}
